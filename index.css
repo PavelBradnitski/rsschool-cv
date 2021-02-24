@@ -1,0 +1,83 @@
+body {
+  min-height: 1000px;
+  margin: 0;
+  background: #f1f1f1;
+}
+header {
+  padding: 20px;
+  background: #333;
+  color: #fff;
+}
+header h1 {
+  margin: 0 auto;
+  width: 440px;
+  font: normal 24px Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.image {
+  top: 0;
+  padding: 10px;
+  width: 100%;
+  margin: auto;
+  font-size: 0;
+  text-align: center;
+  border-bottom: 5px solid #000;
+}
+.image > div {
+  width: 50%; /* Ширина блоков */
+  font-size: 16px; /* Размер текста */
+  padding-left: 30px; /* Расстояние слева */
+  display: inline-block; /* Выстраиваем по горизонтали */
+  vertical-align: middle; /* Выравниваем по центру */
+}
+.image > .img1 {
+  padding-left: 10px; /* Расстояние слева */
+  vertical-align: middle; /* Выравниваем по центру */
+}
+main {
+  width: 400px;
+  padding: 20px;
+  margin: 10px auto;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  background: #fff;
+}
+main > p {
+  text-align: left;
+}
+ul {
+  margin: 0;
+}
+ul > li {
+  margin: 0;
+  list-style: none;
+  text-align: left;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: #ac0000;
+}
+footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 15px;
+  border-top: 3px solid #3db5d8;
+  background: #282a30;
+  color: #fff;
+}
+.site-footer .container {
+  text-align: center;
+}
+.site-footer h5,
+p {
+  margin: 0;
+  padding: 0 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
