@@ -1,5 +1,4 @@
 body {
-  min-height: 1000px;
   margin: 0;
   background: #f1f1f1;
 }
@@ -37,7 +36,8 @@ header h1 {
   height: 100px;
 }
 main {
-  width: 400px;
+  min-height: 1000px;
+  width: 600px;
   padding: 20px;
   margin: 10px auto;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
@@ -63,7 +63,6 @@ a:hover {
   color: #ac0000;
 }
 footer {
-  position: fixed;
   width: 100%;
   left: 0;
   bottom: 0;
@@ -87,4 +86,9 @@ p {
 .footer_image {
   width: 30px;
   height: 30px;
+}
+
+.container > ul > li {
+  list-style: none;
+  display: inline;
 }
