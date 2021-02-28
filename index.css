@@ -31,8 +31,10 @@ header h1 {
   vertical-align: middle; /* Выравниваем по центру */
 }
 .image > .img1 {
-  padding-left: 10px; /* Расстояние слева */
-  vertical-align: middle; /* Выравниваем по центру */
+  padding-left: 10px;
+  vertical-align: middle;
+  width: 80px;
+  height: 100px;
 }
 main {
   width: 400px;
@@ -62,14 +64,15 @@ a:hover {
 }
 footer {
   position: fixed;
+  width: 100%;
   left: 0;
-  right: 0;
   bottom: 0;
   margin: 0;
   padding: 15px;
+
   border-top: 3px solid #3db5d8;
-  background: #282a30;
-  color: #fff;
+  background: #fff;
+  color: #000;
 }
 .site-footer .container {
   text-align: center;
@@ -80,4 +83,8 @@ p {
   padding: 0 10px;
   display: inline-block;
   vertical-align: middle;
+}
+.footer_image {
+  width: 30px;
+  height: 30px;
 }
